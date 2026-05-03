@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: 'Iyanuoluwa Akeju | Full-Stack Developer',
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-950 text-slate-50 antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   )
