@@ -9,7 +9,7 @@ export const projects: Project[] = [
     solution: 'Built a comprehensive platform integrating patient records, appointments, and care workflows',
     technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Tailwind CSS'],
     githubUrl: 'https://github.com/jamesalem/caresync',
-    liveUrl: 'https://caresync.example.com',
+    image: '/projects/caresync.png',
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     solution: 'Developed an affordable SaaS tool with automated SEO recommendations',
     technologies: ['React', 'Node.js', 'MongoDB', 'Puppeteer'],
     githubUrl: 'https://github.com/jamesalem/seo-audit-tool',
-    liveUrl: 'https://seo-audit-tool.example.com',
+    image: '/projects/seo-audit.png',
   },
   {
     id: '3',
@@ -29,6 +29,6 @@ export const projects: Project[] = [
     solution: 'Built a comprehensive socio-educational platform featuring real-time CBT practice sessions, integrated chat functionality, progress tracking, and cross-platform support (web and mobile)',
     technologies: ['Node.js', 'JavaScript', 'PostgreSQL', 'Tailwind CSS', 'React'],
     githubUrl: 'https://github.com/jamesalem/cbtpracticon',
-    liveUrl: 'https://cbtpracticon.example.com',
+    image: '/projects/cbtpracticon.png',
   },
 ];

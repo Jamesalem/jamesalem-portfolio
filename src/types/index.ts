@@ -6,7 +6,6 @@ export interface Project {
   solution: string;
   technologies: string[];
   githubUrl?: string;
-  liveUrl?: string;
   image?: string;
 }
 
